@@ -9,7 +9,7 @@ require("formatter").setup {
     log_level = vim.log.levels.WARN,
     -- All formatter configurations are opt-in
     filetype = {
-        ts = {
+        typescript = {
             require("formatter.filetypes.typescript").prettier
         },
         json = {
@@ -21,25 +21,19 @@ require("formatter").setup {
         css = {
             require("formatter.filetypes.css").prettier
         },
-        md = {
+        markdown = {
             require("formatter.filetypes.markdown").prettier
         },
-        scss = {
-            require("formatter.filetypes.css").prettier
-        },
-        less = {
-            require("formatter.filetypes.css").prettier
-        },
-        gql = {
+        graphql = {
             require("formatter.filetypes.graphql").prettier
         },
         yaml = {
             require("formatter.filetypes.yaml").prettier
         },
-        tsx = {
+        typescriptreact = {
             require("formatter.filetypes.typescriptreact").prettier
         },
-        jsx = {
+        javascriptreact = {
             require("formatter.filetypes.javascriptreact").prettier
         },
         -- Use the special "*" filetype for defining formatter configurations on
