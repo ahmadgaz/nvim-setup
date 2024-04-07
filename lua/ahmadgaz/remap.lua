@@ -14,4 +14,4 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set("n", "Q", "<nop>")
 
-vim.keymap.set("n", "<leader>vd", ":lua vim.diagnostic.enable()<CR>")
+vim.keymap.set("n", "<leader>va", ":lua vim.diagnostic.enable()<CR>")
