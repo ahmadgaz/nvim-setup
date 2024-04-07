@@ -64,7 +64,7 @@ local plugins = {
         opts = {}, -- for default options, refer to the configuration section for custom setup.
     },
     {
-        'folke/tokyonight.nvim',
+        'comfysage/evergarden',
         lazy = false,
         priority = 1000,
         opts = {},
@@ -73,6 +73,10 @@ local plugins = {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.6',
         dependencies = { 'nvim-lua/plenary.nvim' }
+    },
+    {
+        "nvim-telescope/telescope-file-browser.nvim",
+        dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     },
     {
         'nvim-lualine/lualine.nvim',
