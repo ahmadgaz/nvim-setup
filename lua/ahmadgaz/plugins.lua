@@ -12,7 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-    'wbthomason/packer.nvim',
     'github/copilot.vim',
     'nvim-treesitter/playground',
     'theprimeagen/harpoon',
