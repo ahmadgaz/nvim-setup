@@ -27,6 +27,12 @@ local plugins = {
     'L3MON4D3/LuaSnip',
     'mhartington/formatter.nvim',
     {
+        'norcalli/nvim-colorizer.lua',
+        config = function()
+            require 'colorizer'.setup()
+        end
+    },
+    {
         "folke/trouble.nvim",
         branch = "dev", -- IMPORTANT!
         keys = {
